@@ -11,15 +11,9 @@
 function tr_migrate_migrate_api() {
   $api = array(
     'api' => 2,
-    'groups' => array(
-      'tr' => array(
-        'title' => t('TR Demo Migrations'),
-      ),
-    ),
     'migrations' => array(
-      'TrDemoMigration' => array(
+      'TrDemo' => array(
         'class_name' => 'TrDemoMigration',
-        'group_name' => 'tr',
       ),
     ),
   );
