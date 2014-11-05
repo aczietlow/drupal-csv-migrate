@@ -1,0 +1,10 @@
+name = TR Migrate Demo
+description = Test csv migration demo
+package = TR
+core = 7.x
+version = 7.x-1.x
+dependencies[] = migrate
+
+
+files[] = tr_migrate.module
+files[] = tr_migrate.inc
