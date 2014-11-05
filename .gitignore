@@ -33,10 +33,10 @@ _vti_*
 *~
 
 # Ignore Drupal's files directories.
-/www/files
-/www/sites/default/files
-/www/sites/default/private
+files
+sites/default/files
+sites/default/private
 
 # Ignore local settings file for working-copy-specific overrides.
-/www/sites/default/settings.local.php
-/www/sites/default/settings.php
+sites/default/settings.local.php
+sites/default/settings.php
